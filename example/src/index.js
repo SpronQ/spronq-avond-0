@@ -49,7 +49,7 @@ export default class Presentation extends React.Component {
              avond #0 
           </Heading>
           <Heading size={1} fit caps textColor="black">
-          😇😘🤪💩👏💅🐬🌸
+          😇😘🔥💩👏💅🐬🌸
           </Heading>
           
         </Slide>
@@ -67,10 +67,10 @@ export default class Presentation extends React.Component {
           1900 OLAF x <img style={{height: '14px'}} src="https://vamp.io/img/005-vamp/Logo/logo-long-colour.svg"/>
           </Heading>
           <Heading size={1} fit  lineHeight={1}  >
-          2000 DAVID x 🧠⛈
+          2000 DAVID x 💩⛈
           </Heading>
           <Heading size={1} fit  lineHeight={1}  >
-          2030 🗣👨‍❤️‍💋‍👨🥤☕️🍸
+          2030 🗣👨‍❤️‍💋‍👨☕🍵☕️🍸
           </Heading>
           <Heading size={1} fit  lineHeight={1}  >
           2130 🚘🚝🚶‍♂️🏚🚀

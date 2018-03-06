@@ -90,14 +90,14 @@ export default class Presentation extends React.Component {
           DAVID ZEMAN
           </Heading>
           <Heading size={1} fit lineHeight={1} style={{ lineHeight: '40px'}} >
-          &nbsp; 🧠⛈⚡️🌪☔️ &nbsp;
+          &nbsp; 💩⛈⚡️🌪☔️ &nbsp;
           </Heading>
          
         </Slide>
         <Slide bgColor="secondary">
          
           <Heading size={1} fit lineHeight={1} style={{ lineHeight: '40px'}} >
-          &nbsp; 🗣👨‍❤️‍💋‍👨🥤☕️🍸 &nbsp;
+          &nbsp; 🗣👨‍❤️‍💋‍👨🍵☕️🍸 &nbsp;
           </Heading>
          
         </Slide>

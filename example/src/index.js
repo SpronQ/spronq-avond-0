@@ -16,9 +16,13 @@ require('normalize.css');
 
 const images = {
   city: require('../assets/city.jpg'),
+  fluqel: require('../assets/fluqel@3x.png'),
   kat: require('../assets/kat.png'),
   logo: require('../assets/formidable-logo.svg'),
-  markdown: require('../assets/markdown.png')
+  markdown: require('../assets/markdown.png'),
+  shirt1: require('../assets/shirt1.png'),
+  shirt2: require('../assets/shirt2.png'),
+  shirt3: require('../assets/shirt3.png'),
 };
 
 preloader(images);
@@ -46,10 +50,10 @@ export default class Presentation extends React.Component {
           SpronQ
           </Heading>
           <Heading size={1} fit caps>
-             avond #0 
+             avond #1 
           </Heading>
           <Heading size={1} fit caps textColor="black">
-          😇😘🔥💩👏💅🐬🌸
+          👕🍕🍺☕️🥤🔥🦅🚴‍♀️👕🚴‍♀️🍕
           </Heading>
           
         </Slide>
@@ -61,13 +65,13 @@ export default class Presentation extends React.Component {
           notes="<ul><li>talk about that</li><li>and that</li></ul>"
         >
           <Heading size={1} fit  lineHeight={1} >
-          1730 INLOOP x 🍕
+          1730 INLOOP x 🍕🍕
           </Heading>
           <Heading size={1} fit  lineHeight={1}  >
-          1900 OLAF x <img style={{height: '14px'}} src="https://vamp.io/img/005-vamp/Logo/logo-long-colour.svg"/>
+          1900 Leen x <img style={{height: '14px'  }} src="https://fluqel.com/static/1x/fluqel.png"/>
           </Heading>
           <Heading size={1} fit  lineHeight={1}  >
-          2000 DAVID x 💩⛈
+          2000 Matthijs x 🚴‍♀️👕
           </Heading>
           <Heading size={1} fit  lineHeight={1}  >
           2030 🗣👨‍❤️‍💋‍👨☕🍵☕️🍸
@@ -76,23 +80,32 @@ export default class Presentation extends React.Component {
           2130 🚘🚝🚶‍♂️🏚🚀
           </Heading>
         </Slide>
-        <Slide   bgColor="secondary">
+        <Slide bgColor="secondary">
           <Heading size={1} fit  lineHeight={1}  >
-          OLAF MOLENVELD
+          LEEN BREEVOORT
           </Heading>
           <Heading size={1} fit  lineHeight={1}  >
-          <img   style={{ marginTop: 100, height: '200px'}} src="https://vamp.io/img/005-vamp/Logo/logo-long-colour.svg"/>
+          <Image src={images.fluqel.replace('/', '')}/>
           </Heading>
         </Slide>
         
         <Slide  >
           <Heading size={1} fit lineHeight={1}  >
-          DAVID ZEMAN
+          MATTHIJS LIGT
           </Heading>
           <Heading size={1} fit lineHeight={1} style={{ lineHeight: '40px'}} >
-          &nbsp; 💩⛈⚡️🌪☔️ &nbsp;
+          &nbsp;  🚴‍👕 🚴‍👕
           </Heading>
          
+        </Slide>
+        <Slide bgColor="secondary">
+          <Image src={images.shirt1.replace('/', '')}/>
+        </Slide>
+        <Slide bgColor="primary">
+          <Image src={images.shirt2.replace('/', '')}/>
+        </Slide>
+        <Slide bgColor="tertiary">
+          <Image src={images.shirt3.replace('/', '')}/>
         </Slide>
         <Slide bgColor="secondary">
          

@@ -6,7 +6,7 @@ import prismDark from './prism.dark';
 const defaultColors = {
   primary: '#f9c300',
   secondary: 'black',
-  tertiary: 'white',
+  tertiary: 'orange',
   quarternary: 'white',
 };
 
